@@ -11,8 +11,7 @@ REGOLE
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
 
-let string =
-  'miaomiao' /* questa qui p una string, cioè un indieme di caratteri che possono essere lettere o numeri */
+let string = 'miaomiao' /* una string,cioè un indieme di caratteri */
 let number = 20 /* si tratta semplicemente di un numero/valore numerico */
 let boolean = true /* un booleano serve a dire se qualcosa è vera o falsa */
 let nullo = null /* quando non è presente un valore, appunto nullo */
@@ -66,3 +65,5 @@ let name2 = 'John'
 console.log(
   name1 !== name2
 ) /* in questo modo possiamo vedere che in console darà true perchè appunto name1 è diverso(!==) da name2 */
+
+console.log(name1 === name2.toLowerCase())
